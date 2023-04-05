@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 14%;
+}
+
+.headerLogoKare {
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(143, 143, 143, 0.2);
+}
+.headerList {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerList ul li {
+    list-style: none;
+}
+
+.headerLogoTitle {
+    display: flex;
+}
+
+.headerList ul li a {
+    color: rgba(79, 79, 79, 0.8);
+    margin-left: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.headerList ul li a:first-child {
+    color: rgb(0, 0, 0, 0.7);
+    border-bottom-right-radius: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: orange;
+}
+
+.headerLocation,
+.headerbells {
+    opacity: 0.4;
+
+}
+
+.headerRegister {
+    width: 10%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+.headerRegisterStarBold {
+    background-color: rgb(236, 232, 232, 0.5);
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+
+.headerStar,
+.headerBold {
+    width: 20px;
+}
+.headerBold{
+    width: 25px;
+    border: 1px solid black;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 1px 0px 1px 3px rgb(0, 0, 0, 0.1);
+}
+.headerUser{
+    width: 30px;
+}

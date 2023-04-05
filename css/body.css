@@ -1,0 +1,147 @@
+.body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.bodyDescription {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyDescriptionSquartStar {
+    display: flex;
+    justify-content: end;
+}
+
+.squarteStar {
+    width: 3rem;
+    opacity: 1;
+}
+.bodyDescriptionContentTitle{
+   font-size: 3.8rem;
+   font-weight: bold;
+}
+.bodyDescriptionContentParagraf{
+    color: rgb(118, 118, 118);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.bodyDescriptionBtn{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgba(216, 216, 216, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bodyDescriptionPhone{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: end;
+}
+.bodyDescriptionPhoneImg{
+    opacity: 1;
+    padding: 5px;
+    width: 40px;
+    border-left-color:orange ;
+    border-left-style:solid ;
+    border-left-width:4px ;
+    border-bottom-color:orange ;
+    border-bottom-style:solid ;
+    border-bottom-width:4px ;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.bodyDescriptionDiscover{
+    padding: 1rem;
+    width: 45%;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.bodyDescriptionContentTitle b {
+    color: rgb(108, 169, 108);
+}
+.bodyImage {
+    width: 39%;
+}
+.bodyImageExplore {
+    width: 100%;
+    border-radius: 1%;
+}
+.bodyImageHR{
+    height: 10px;
+    background-color: black;
+    margin-top: 5px;
+}
+.bodyInfo {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bodyInfoTitle
+,.bodyInfoDate
+,.bodyInfoTime
+,.bodyInfoPerson
+,.bodyInfoLira{
+    display: flex;
+
+}
+/* .bodyInfoTitle img */
+.bodyInfoDate img
+,.bodyInfoTime img
+,.bodyInfoPerson img
+,.bodyInfoLira img{
+    width: 30px;
+    padding: 5px;
+    /* border: 1px solid black; */
+    background-color: rgb(238, 236, 236);
+    border-radius: 5px;
+}
+.bodyInfoDateTile
+,.bodyInfotimetitle
+,.bodyInfoPersontitle
+,.bodyInfoLiraTitle{
+    margin-left: 10px;
+}
+
+.bodyInfoDateTile h5{
+    font-size: 17px;
+    color: rgb(128,223,203);
+    /* color: rgb(105, 177, 222); */
+}
+.bodyInfotimetitle h5{
+    font-size: 17px;
+    color: rgb(107,171,208);
+}
+.bodyInfoPersontitle h5{
+    font-size: 17px;
+    color: rgb(155,102,178);    
+}
+.bodyInfoLiraTitle h5{
+    font-size: 17px;
+    color: rgb(238,171,107);
+}
+
+
+
+.bodyInfoDateTile p{
+    color: rgb(134,140,157);
+}
+.bodyInfotimetitle p{
+    color: rgb(134,140,157);
+}
+.bodyInfoPersontitle p{
+    color: rgb(134,140,157);
+}
+.bodyInfoLiraTitle p{
+    color: rgb(134,140,157);
+}

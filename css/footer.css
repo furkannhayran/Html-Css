@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerContainer{
+    border-radius: 10px;
+    width: 85%;
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footerCar h1 {
+    font-size: 3rem;
+    font-weight: 100;
+    color: rgb(27,42,46);
+    margin-top: 20px;
+}
+.footerCar{
+    opacity: 1;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+    border-radius: 10px;
+
+}
+.footerContent{
+    width: 40%;
+}
+.footerContent h3{
+    color: rgb(73,31,178);
+
+}
+.footerContent p {
+    font-size: 3rem;
+    
+}

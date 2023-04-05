@@ -1,0 +1,81 @@
+.participans {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.participansUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.participansUserNavbar {
+    margin-top: 10px;
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.participansUserGrow {
+    width: 45px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(207, 207, 242);
+    opacity: 1;
+    box-shadow: 1px 0px 2px 2px rgba(0, 34, 255, 0.1);
+}
+
+.participansUserAnimal {
+    width: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(207, 207, 242);
+    opacity: 1;
+    box-shadow: 1px 0px 2px 2px rgba(0, 34, 255, 0.1);
+
+}
+
+.participansUserPlus {
+
+    width: 45px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: orange;
+    cursor: pointer;
+    color: white;
+    opacity: 1;
+    box-shadow: 1px 0px 2px 2px rgba(0, 34, 255, 0.1);
+}
+
+.participansMonth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.participansMonth p {
+    margin-top: 10px;
+    color: rgb(134, 140, 157);
+}
+
+.participansPercent {
+    border: 1px dashed black;
+    border-right-color: orange;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-radius: 50%;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.participansPercent p {
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgb(134, 140, 157);
+}
